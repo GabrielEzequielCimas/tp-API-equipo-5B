@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using dominio;
 
+
 namespace accesoDatos
 {
     public class ConexionDB

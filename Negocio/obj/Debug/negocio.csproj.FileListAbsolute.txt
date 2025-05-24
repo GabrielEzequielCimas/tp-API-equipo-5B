@@ -1,0 +1,11 @@
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\bin\Debug\negocio.dll
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\bin\Debug\negocio.pdb
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\bin\Debug\accesoDatos.dll
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\bin\Debug\dominio.dll
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\bin\Debug\accesoDatos.pdb
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\bin\Debug\dominio.pdb
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.csproj.Up2Date
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.dll
+E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.pdb
