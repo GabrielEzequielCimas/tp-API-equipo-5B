@@ -37,6 +37,7 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
+
         public List<Imagenes> ListarImagenes(int idArticulo)
         {
             List<Imagenes> lista = new List<Imagenes>();

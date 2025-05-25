@@ -108,5 +108,32 @@ namespace tp_API_equipo_5B.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
+
+        // POST: api/Articulo/AgregarImagenes
+        [HttpPost]
+        [Route("api/Articulo/AgregarImagen")]
+        public HttpResponseMessage AgregarImagen([FromBody] ImagenDto dto)
+        {
+            try
+            {
+                if (dto == null || string.IsNullOrEmpty(dto.Url))
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "No se recibió una URL válida.");
+
+                ImagenNegocio imagenNegocio = new ImagenNegocio();
+
+                Imagenes nuevaImagen = new Imagenes
+                {
+                    url = dto.Url
+                };
+
+                imagenNegocio.agregar(nuevaImagen, dto.IdArticulo);
+
+                return Request.CreateResponse(HttpStatusCode.OK, "Imagen agregada correctamente.");
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
     }
 }
