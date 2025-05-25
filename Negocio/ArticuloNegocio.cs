@@ -276,5 +276,26 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
+
+        public bool ExisteArticulo(int id)
+        {
+            ConexionDB datos = new ConexionDB();
+            try
+            {
+                datos.setearConsulta("SELECT COUNT(*) FROM ARTICULOS WHERE Id = @id");
+                datos.setearParametro("@id", id);
+                datos.ejecutarLectura();
+                if (datos.Lector.Read())
+                {
+                    int cantidad = (int)datos.Lector[0];
+                    return cantidad > 0;
+                }
+                return false;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }

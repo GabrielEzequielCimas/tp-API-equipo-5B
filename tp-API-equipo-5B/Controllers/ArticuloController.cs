@@ -73,10 +73,22 @@ namespace tp_API_equipo_5B.Controllers
         }
 
         // DELETE: api/Articulo/5
-        public void Delete(int id)
+        public HttpResponseMessage Delete(int id)
         {
-            ArticuloNegocio negocio = new ArticuloNegocio();
-            negocio.eliminar(id);
+            try
+            {
+                ArticuloNegocio negocio = new ArticuloNegocio();
+
+                if (!negocio.ExisteArticulo(id))
+                    return Request.CreateErrorResponse(HttpStatusCode.NotFound, $"No se encontró un artículo con ID = {id}.");
+
+                negocio.eliminar(id);
+                return Request.CreateResponse(HttpStatusCode.OK, "Artículo eliminado correctamente.");
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
         }
     }
 }
