@@ -28,17 +28,35 @@ namespace tp_API_equipo_5B.Controllers
         }
 
         // POST: api/Articulo
-        public void Post([FromBody]ArticuloDto articulo)
+        public HttpResponseMessage Post([FromBody]ArticuloDto articulo)
         {
-            ArticuloNegocio negocio = new ArticuloNegocio();
-            Articulo nuevo = new Articulo();
-            nuevo.codigo = articulo.codigo;
-            nuevo.nombre = articulo.nombre;
-            nuevo.descripcion = articulo.descripcion;
-            nuevo.precio = articulo.precio;
-            nuevo.marca = new Marca { idMarca = articulo.idMarca };
-            nuevo.categoria = new Categoria { idCategoria = articulo.idCategoria };
-            negocio.agregar(nuevo);
+            try
+            {
+                ArticuloNegocio negocio = new ArticuloNegocio();
+
+                // Validación de existencia por nombre o código
+                if (negocio.ExisteArticuloPorNombreOCodigo(articulo.nombre, articulo.codigo))
+                {
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Ya existe un artículo con ese nombre o código.");
+                }
+
+                Articulo nuevo = new Articulo
+                {
+                    codigo = articulo.codigo,
+                    nombre = articulo.nombre,
+                    descripcion = articulo.descripcion,
+                    precio = articulo.precio,
+                    marca = new Marca { idMarca = articulo.idMarca },
+                    categoria = new Categoria { idCategoria = articulo.idCategoria }
+                };
+
+                negocio.agregar(nuevo);
+                return Request.CreateResponse(HttpStatusCode.Created, "Artículo agregado correctamente.");
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
         }
 
         // PUT: api/Articulo/5
