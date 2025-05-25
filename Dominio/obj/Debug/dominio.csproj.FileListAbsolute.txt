@@ -4,3 +4,9 @@ E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\dominio\obj\Debug\dominio.cspro
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\dominio\obj\Debug\dominio.dll
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\dominio\obj\Debug\dominio.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\dominio\bin\Debug\dominio.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\dominio\bin\Debug\dominio.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\dominio\obj\Debug\dominio.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\dominio\obj\Debug\dominio.pdb

@@ -7,3 +7,12 @@ E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\accesoDatos\bin\Debug\dominio.p
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDa.B3E43C14.Up2Date
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDatos.dll
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDatos.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\bin\Debug\accesoDatos.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\bin\Debug\accesoDatos.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\bin\Debug\dominio.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\bin\Debug\dominio.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDatos.csproj.AssemblyReference.cache
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDa.B3E43C14.Up2Date
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDatos.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\accesoDatos\obj\Debug\accesoDatos.pdb

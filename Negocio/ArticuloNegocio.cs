@@ -136,6 +136,25 @@ namespace negocio
             }
         }
 
+        //Sobrecarga de funcion eliminar usando solo el id
+        public void eliminar(int id)
+        {
+            try
+            {
+                ImagenNegocio imagenNegocio = new ImagenNegocio();
+                imagenNegocio.eliminarPorIdArticulo(id);
+
+                ConexionDB datos = new ConexionDB();
+                datos.setearConsulta("DELETE FROM ARTICULOS WHERE Id = @id");
+                datos.setearParametro("@id", id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public List<Articulo> filtrar(string campo, string criterio, string filtro)
         {
             List<Articulo> lista = new List<Articulo>();

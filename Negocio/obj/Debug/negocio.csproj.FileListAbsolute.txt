@@ -9,3 +9,14 @@ E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\bin\Debug\dominio.pdb
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.csproj.Up2Date
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.dll
 E:\escritorio\API\Nueva carpeta\tp-API-equipo-5B\negocio\obj\Debug\negocio.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\bin\Debug\negocio.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\bin\Debug\negocio.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\bin\Debug\accesoDatos.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\bin\Debug\dominio.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\bin\Debug\accesoDatos.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\bin\Debug\dominio.pdb
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\obj\Debug\negocio.dll
+C:\Users\matia\Desktop\Projecto\tp-API-equipo-5B\negocio\obj\Debug\negocio.pdb

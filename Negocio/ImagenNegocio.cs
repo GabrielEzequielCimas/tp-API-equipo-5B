@@ -83,23 +83,23 @@ namespace negocio
             }
             finally { datos.cerrarConexion(); }
         }
-        public void eliminar(int id)
+        public void eliminarPorIdArticulo(int idArticulo)
         {
             ConexionDB datos = new ConexionDB();
             try
             {
-                datos.setearConsulta("delete from IMAGENES where Id = @id");
-                datos.setearParametro("@id", id);
-
-
+                datos.setearConsulta("DELETE FROM IMAGENES WHERE IdArticulo = @idArticulo");
+                datos.setearParametro("@idArticulo", idArticulo);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
-            finally { datos.cerrarConexion(); }
+            finally
+            {
+                datos.cerrarConexion();
+            }
         }
     }
 }
