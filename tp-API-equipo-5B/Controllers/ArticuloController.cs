@@ -35,6 +35,7 @@ namespace tp_API_equipo_5B.Controllers
             nuevo.codigo = articulo.codigo;
             nuevo.nombre = articulo.nombre;
             nuevo.descripcion = articulo.descripcion;
+            nuevo.precio = articulo.precio;
             nuevo.marca = new Marca { idMarca = articulo.idMarca };
             nuevo.categoria = new Categoria { idCategoria = articulo.idCategoria };
             negocio.agregar(nuevo);
@@ -44,13 +45,15 @@ namespace tp_API_equipo_5B.Controllers
         public void Put(int id, [FromBody] ArticuloDto articulo)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
-            Articulo nuevo = new Articulo();
-            nuevo.codigo = articulo.codigo;
-            nuevo.nombre = articulo.nombre;
-            nuevo.descripcion = articulo.descripcion;
-            nuevo.marca = new Marca { idMarca = articulo.idMarca };
-            nuevo.categoria = new Categoria { idCategoria = articulo.idCategoria };
-            negocio.agregar(nuevo);
+            Articulo modificado = new Articulo();
+            modificado.idArticulo = id;
+            modificado.codigo = articulo.codigo;
+            modificado.nombre = articulo.nombre;
+            modificado.descripcion = articulo.descripcion;
+            modificado.precio = articulo.precio;
+            modificado.marca = new Marca { idMarca = articulo.idMarca };
+            modificado.categoria = new Categoria { idCategoria = articulo.idCategoria };
+            negocio.modificar(modificado);
         }
 
         // DELETE: api/Articulo/5
