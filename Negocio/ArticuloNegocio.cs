@@ -240,5 +240,41 @@ namespace negocio
                 throw ex;
             }
         }
+
+        public bool ExisteCategoria(int idCategoria)
+        {
+            ConexionDB datos = new ConexionDB();
+            try
+            {
+                datos.setearConsulta("SELECT COUNT(*) FROM CATEGORIAS WHERE Id = @id");
+                datos.setearParametro("@id", idCategoria);
+                datos.ejecutarLectura();
+                if (datos.Lector.Read())
+                    return (int)datos.Lector[0] > 0;
+                return false;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public bool ExisteMarca(int idMarca)
+        {
+            ConexionDB datos = new ConexionDB();
+            try
+            {
+                datos.setearConsulta("SELECT COUNT(*) FROM MARCAS WHERE Id = @id");
+                datos.setearParametro("@id", idMarca);
+                datos.ejecutarLectura();
+                if (datos.Lector.Read())
+                    return (int)datos.Lector[0] > 0;
+                return false;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }

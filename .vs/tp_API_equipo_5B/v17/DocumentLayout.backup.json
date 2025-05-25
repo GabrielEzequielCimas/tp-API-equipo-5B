@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88870FEA-1550-413F-A303-66203C804602}|accesoDatos\\accesoDatos.csproj|C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\accesodatos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88870FEA-1550-413F-A303-66203C804602}|accesoDatos\\accesoDatos.csproj|solutionrelative:accesodatos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp_API_equipo_5B.csproj|c:\\users\\matia\\desktop\\projecto\\tp-api-equipo-5b\\tp-api-equipo-5b\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp_API_equipo_5B.csproj|solutionrelative:tp-api-equipo-5b\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2AA24D38-F0EC-441A-9B2C-FB350550118F}|negocio\\negocio.csproj|c:\\users\\matia\\desktop\\projecto\\tp-api-equipo-5b\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AA24D38-F0EC-441A-9B2C-FB350550118F}|negocio\\negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AA24D38-F0EC-441A-9B2C-FB350550118F}|negocio\\negocio.csproj|c:\\users\\matia\\desktop\\projecto\\tp-api-equipo-5b\\negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AA24D38-F0EC-441A-9B2C-FB350550118F}|negocio\\negocio.csproj|solutionrelative:negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp_API_equipo_5B.csproj|c:\\users\\matia\\desktop\\projecto\\tp-api-equipo-5b\\tp-api-equipo-5b\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp_API_equipo_5B.csproj|solutionrelative:tp-api-equipo-5b\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp_API_equipo_5B.csproj|C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-api-equipo-5b\\models\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp_API_equipo_5B.csproj|solutionrelative:tp-api-equipo-5b\\models\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp-API-equipo-5B.csproj|C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-api-equipo-5b\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A2C7614-0441-40BD-9EDF-363FCE1040D1}|tp-API-equipo-5B\\tp-API-equipo-5B.csproj|solutionrelative:tp-api-equipo-5b\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0865AA47-5189-44B7-9E78-D63162CA7E6F}|dominio\\dominio.csproj|C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImagenNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\Negocio\\ImagenNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\ImagenNegocio.cs",
-              "ToolTip": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\Negocio\\ImagenNegocio.cs",
-              "RelativeToolTip": "Negocio\\ImagenNegocio.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwGYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T14:55:26.243Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -61,74 +36,49 @@
               "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
               "ToolTip": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\Negocio\\ArticuloNegocio.cs",
               "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAkwJAAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAcwBQBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T14:46:52.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ArticuloController.cs",
               "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
               "RelativeDocumentMoniker": "tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
               "ToolTip": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
               "RelativeToolTip": "tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwD0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T17:32:28.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ArticuloDto.cs",
               "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-API-equipo-5B\\Models\\ArticuloDto.cs",
               "RelativeDocumentMoniker": "tp-API-equipo-5B\\Models\\ArticuloDto.cs",
               "ToolTip": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-API-equipo-5B\\Models\\ArticuloDto.cs",
               "RelativeToolTip": "tp-API-equipo-5B\\Models\\ArticuloDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T17:32:25.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\dominio\\Articulo.cs",
               "RelativeDocumentMoniker": "dominio\\Articulo.cs",
               "ToolTip": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\dominio\\Articulo.cs",
               "RelativeToolTip": "dominio\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T17:16:38.813Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\accesoDatos\\ConexionDB.cs",
-              "RelativeDocumentMoniker": "accesoDatos\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\accesoDatos\\ConexionDB.cs",
-              "RelativeToolTip": "accesoDatos\\ConexionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:35:10.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArticuloController.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
-              "RelativeDocumentMoniker": "tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
-              "ToolTip": "C:\\Users\\matia\\Desktop\\Projecto\\tp-API-equipo-5B\\tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
-              "RelativeToolTip": "tp-API-equipo-5B\\Controllers\\ArticuloController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:26:35.197Z"
             }
           ]
         }

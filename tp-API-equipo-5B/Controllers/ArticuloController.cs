@@ -42,18 +42,34 @@ namespace tp_API_equipo_5B.Controllers
         }
 
         // PUT: api/Articulo/5
-        public void Put(int id, [FromBody] ArticuloDto articulo)
+        public HttpResponseMessage Put(int id, [FromBody] ArticuloDto articulo)
         {
-            ArticuloNegocio negocio = new ArticuloNegocio();
-            Articulo modificado = new Articulo();
-            modificado.idArticulo = id;
-            modificado.codigo = articulo.codigo;
-            modificado.nombre = articulo.nombre;
-            modificado.descripcion = articulo.descripcion;
-            modificado.precio = articulo.precio;
-            modificado.marca = new Marca { idMarca = articulo.idMarca };
-            modificado.categoria = new Categoria { idCategoria = articulo.idCategoria };
-            negocio.modificar(modificado);
+            try
+            {
+                ArticuloNegocio negocio = new ArticuloNegocio();
+                Articulo modificado = new Articulo();
+                modificado.idArticulo = id;
+                modificado.codigo = articulo.codigo;
+                modificado.nombre = articulo.nombre;
+                modificado.descripcion = articulo.descripcion;
+                modificado.precio = articulo.precio;
+                modificado.marca = new Marca { idMarca = articulo.idMarca };
+                modificado.categoria = new Categoria { idCategoria = articulo.idCategoria };
+
+                // Validaciones
+                if (!negocio.ExisteMarca(articulo.idMarca))
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "La marca especificada no existe.");
+
+                if (!negocio.ExisteCategoria(articulo.idCategoria))
+                    return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "La categoría especificada no existe.");
+
+                negocio.modificar(modificado);
+                return Request.CreateResponse(HttpStatusCode.OK, "Artículo modificado correctamente.");
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
         }
 
         // DELETE: api/Articulo/5
